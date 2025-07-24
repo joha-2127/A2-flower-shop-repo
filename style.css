@@ -18,6 +18,7 @@
   align-items: center;
   list-style: none;
   gap: 48px;
+  margin: 23px 0;
 }
 .nav-links li a {
   text-decoration: none;
@@ -70,12 +71,9 @@
 }
 .card-details h1 {
   font-family: "Noto Serif", serif;
-
   font-size: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 0px;
+  text-align: center;
 }
 .card-details p {
   display: flex;
@@ -85,4 +83,84 @@
   color: rgba(0, 0, 0, 0.5);
   font-family: Inter;
   font-size: 22px;
+}
+.card {
+  max-width: 270px;
+  height: 484.94px;
+  font-family: "Inter", sans-serif;
+}
+.card-middle {
+  text-align: center;
+  color: rgb(17, 17, 17);
+  font-size: 22px;
+  font-weight: 500;
+  margin: 20px;
+}
+.card-middle h5 {
+  font-weight: 700;
+  margin: 10px;
+}
+.card-bottom button {
+  width: 270px;
+  height: 50px;
+  text-align: center;
+  gap: 10;
+  background: rgb(233, 90, 8);
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+}
+.card-body {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin: 49px 0;
+}
+/* Plant-Lover-Section */
+.plant-lover-section {
+  margin: 210.13px auto 1816px auto;
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.pic {
+  position: relative;
+  display: block;
+  width: 540px;
+  height: 597px;
+  z-index: 1;
+}
+.badge {
+  position: absolute;
+  width: 286px;
+  height: 286px;
+  transform: translate(-50%, -50%);
+  top: 27px;
+  right: 657px;
+  left: 497px;
+  z-index: 2;
+}
+.badge-icon {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.plant-lover-section-right {
+  margin: 38px 0 38px 120px;
+}
+.plant-lover-section-right h1 {
+  color: rgb(0, 0, 0);
+  font-family: Noto Serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 68px;
+}
+.plant-lover-section-right ul li {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27px;
+  margin: 20px 0px;
 }
