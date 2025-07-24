@@ -178,7 +178,7 @@
 }
 .deal-brief p {
   color: rgba(0, 0, 0, 0.5);
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 22px;
   font-weight: 400;
   line-height: 27px;
@@ -300,4 +300,41 @@
   font-size: 50px;
   font-weight: 700;
   line-height: 68px;
+}
+.colorful-bunch-section .newsletter-form {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+}
+.colorful-bunch-section .newsletter-form input[type="email"] {
+  padding: 8px 20px;
+  height: 50px;
+  border: none;
+  font-size: 1em;
+  width: 644px;
+  max-width: 80%;
+}
+.colorful-bunch-section .newsletter-form button[type="submit"] {
+  background: rgb(233, 90, 8);
+  color: rgb(255, 255, 255);
+  font-family: "Inter", sans-serif;
+  width: 186px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.colorful-bunch-section .newsletter-form button[type="submit"]:hover {
+  background-color: skyblue; /* Slightly darker orange on hover */
+}
+/* FOOTER SECTION */
+.footer-section {
+  width: 1440px;
+  height: 348px;
+  padding: 50px 160px 50px 160px;
 }
