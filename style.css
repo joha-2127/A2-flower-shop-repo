@@ -118,7 +118,7 @@
 }
 /* Plant-Lover-Section */
 .plant-lover-section {
-  margin: 210.13px auto 1816px auto;
+  margin-top: 212px;
   position: relative;
   width: 100%;
   height: auto;
@@ -151,7 +151,8 @@
 }
 .plant-lover-section-right h1 {
   color: rgb(0, 0, 0);
-  font-family: Noto Serif;
+  font-family: "Noto Serif", serif;
+
   font-size: 50px;
   font-weight: 700;
   line-height: 68px;
@@ -163,4 +164,140 @@
   font-weight: 400;
   line-height: 27px;
   margin: 20px 0px;
+}
+.latest-deal {
+  width: 1440px;
+  height: 138px;
+  text-align: center;
+  margin: 133.8px auto;
+}
+.deal-brief h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 68px;
+}
+.deal-brief p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27px;
+  margin: 16px;
+}
+/* PICTURE GRID SECTION */
+.photo-grid {
+  width: 1140px;
+  height: 423.13px;
+  display: flex;
+  gap: 20px; /* Space between left and right panels */
+  padding: 20px;
+  margin: 120px auto;
+}
+.left-section {
+  width: 366.22px;
+  height: 206px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.box {
+  position: relative;
+  border-radius: 8px;
+}
+.text-overlay {
+  position: absolute;
+  top: 67px;
+  right: 47px;
+  left: 49px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 15px;
+  /* Optional: a subtle gradient overlay if you want more depth */
+  /* background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.5) 100%); */
+}
+.box img {
+  width: 366.22px;
+  height: 206px;
+  display: block;
+  border-radius: 15px;
+  /* object-fit: cover; Cover ensures the image fills, cropping if necessary */
+  filter: brightness(0.7); /* Darken the image slightly for text readability */
+  transition: filter 0.3s ease; /* Smooth transition for hover effect */
+}
+.font {
+  font-family: "Noto Serif", serif;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+}
+.text-overlay a {
+  font-family: "Inter", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  line-height: 19px;
+  margin: 19px auto;
+}
+.right-section {
+  display: flex;
+}
+.box-large img {
+  width: 753px;
+  height: 423.13px;
+}
+.bigger-overlay {
+  position: absolute;
+  top: 172px;
+  right: 241px;
+  left: 242px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 15px;
+}
+.bigger-overlay h1 {
+  width: 753px;
+  font-size: 35px;
+}
+/* JOIN SECTION */
+.colorful-bunch-section {
+  position: relative;
+  width: 100%;
+  height: 533px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.colorful-bunch-section .background-image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.colorful-bunch-section .background-image-container img {
+  width: 100%;
+  height: 533px;
+  filter: brightness(0.6);
+}
+.colorful-bunch-section .content-overlay {
+  position: relative;
+  z-index: 2; /* Place content above the image */
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.colorful-bunch-section h2 {
+  font-family: "Noto Serif", serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 68px;
 }
