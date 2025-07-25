@@ -348,10 +348,8 @@
   flex-wrap: wrap;
 }
 
-/* Left section: Logo + Description */
 .footer-left {
   flex: 1;
-  min-width: 359px;
 }
 
 .footer-logo {
